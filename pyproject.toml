@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adm1-tea-lca"
+version = "0.1.0"
+description = "Recorded ADM1 biomethane simulation, TEA/LCA and finite-grid analysis workflow"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Ugwiyeon Lee"}]
+license = "MIT"
+license-files = ["LICENSE", "third_party_licenses/*.txt"]
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+keywords = ["ADM1", "anaerobic digestion", "biomethane", "TEA", "LCA", "optimization", "research reproducibility"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+[project.urls]
+Homepage = "https://github.com/lyullee/adm1-tea-lca"
+Repository = "https://github.com/lyullee/adm1-tea-lca"
+Documentation = "https://github.com/lyullee/adm1-tea-lca/tree/main/docs"
+Issues = "https://github.com/lyullee/adm1-tea-lca/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "build>=1", "twine>=6"]
+legacy-excel = ["pandas>=2", "openpyxl>=3"]
+
+[project.scripts]
+adm1-tea-lca = "adm1_tea_lca.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+adm1_tea_lca = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

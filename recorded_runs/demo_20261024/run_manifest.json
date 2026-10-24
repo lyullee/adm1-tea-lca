@@ -1,0 +1,126 @@
+{
+  "schema": "adm1-tea-lca/run-record/v1",
+  "recorded_at_utc": "2026-10-24T03:04:23.852441+00:00",
+  "python": "3.11.17",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "command": [
+    "demo",
+    "--config",
+    "examples/recorded_baseline.json",
+    "--output",
+    "recorded_runs/demo_20261024"
+  ],
+  "source_and_input_hashes": [
+    {
+      "path": "__init__.py",
+      "sha256": "b39799f35886ddfb22a36727b8f003fd3b44792a7839f4d3a825919ca8939402"
+    },
+    {
+      "path": "__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "_legacy/__init__.py",
+      "sha256": "8ec1408e2e78ac3ef2051c8d5bef1cacc0e678d3255a29d1ef2a13885073f09b"
+    },
+    {
+      "path": "_legacy/adm1_basic.py",
+      "sha256": "4374852f40d15bb44c64277446a384263ce6a77f6dd15af9b044033f20c293ad"
+    },
+    {
+      "path": "_legacy/adm1_r1.py",
+      "sha256": "69732d740a4c3d178af9e9a4c472b48b2d41147247177f0baaee9a810b2ab649"
+    },
+    {
+      "path": "_legacy/adm1_r2.py",
+      "sha256": "8b26e78a154bcac4b1cee660e878ff67c4c03297c2f4a64dd87b903d80272ebf"
+    },
+    {
+      "path": "_legacy/adm1_r3.py",
+      "sha256": "db57b931b9daa9645b5d660d941621ae09a960b2bd2fd4252d7c8659bb43b128"
+    },
+    {
+      "path": "_legacy/adm1_r4.py",
+      "sha256": "56abeec99c341734b5075395f3e25c7cbf7b2389ba54284fdd10cdb9babd4dc9"
+    },
+    {
+      "path": "_legacy/initial.py",
+      "sha256": "49730b331562c3fb802eb0bfb1d2ffae385d0f607199d7c10f88879a35bb2895"
+    },
+    {
+      "path": "_legacy/input.py",
+      "sha256": "c73c48deb45ceab684e4d878e793a6c5c91f545b0cab462b3af63d9f46dc83cb"
+    },
+    {
+      "path": "_legacy/main.py",
+      "sha256": "cd2b9853dab31f22d5db16989e1fb9e3e32f3d83373af7f62775713266f4b4ce"
+    },
+    {
+      "path": "_legacy/parameters.py",
+      "sha256": "b2b8b541c7035f7d61333d25078b4bce949db6ba3a1ce8230726cb132b2471db"
+    },
+    {
+      "path": "adm1.py",
+      "sha256": "5dccd041ff19778000b614b3efc412b1c874fefe6c42beb2cc59237a2579ced1"
+    },
+    {
+      "path": "analysis.py",
+      "sha256": "61d80dcab1533887290e3ea882ca6648a21189bc4d5901cb1dfd93d8b81bba58"
+    },
+    {
+      "path": "boundaries.py",
+      "sha256": "9102f529907f9c64029399f430d852ee91969c68502ab5925868e1c9a4abfab2"
+    },
+    {
+      "path": "cli.py",
+      "sha256": "3af5ba1096a66e570a7e748bd2971252955680bf602ac2d364736014482afc7e"
+    },
+    {
+      "path": "data/adm1_feed_input_provenance.csv",
+      "sha256": "6d0a451d56173d8f1e909148e823ff9378b6940c9de3fcf0726b08c351f7ae61"
+    },
+    {
+      "path": "data/adm1_initial_conditions.csv",
+      "sha256": "459473eb53db7e6e86cac72b85ce15eecc49c6fb78bb5f9da06dd69a76c9b66a"
+    },
+    {
+      "path": "data/adm1_parameters.csv",
+      "sha256": "b692f01efaebda4f162ba1aabebbcb0705b05dbb390cc2058b1b61e2d37134b2"
+    },
+    {
+      "path": "data/representative_designs.csv",
+      "sha256": "aed3d449647f68bdec0e7ee5646b57cfcb0fc6e8537fc7e719714523c697261e"
+    },
+    {
+      "path": "data/substrate_degradability_map.csv",
+      "sha256": "1b5f49745de484d2c33a3525a612a53866d44f86318865169b28f23eaa29e579"
+    },
+    {
+      "path": "data/tea_parameters.csv",
+      "sha256": "3dfc3bdc87817d107926a9deaba7df2ca592b28fa1f90f514158f222e998aea5"
+    },
+    {
+      "path": "lca.py",
+      "sha256": "b305355ce9105521f212ca075692fa29ff33ead257013d0d0f85786fd93cd233"
+    },
+    {
+      "path": "pipeline.py",
+      "sha256": "15c6109cea7922d7934b7e63c243f0a85fce738c2af8665da87d270c4a7447c2"
+    },
+    {
+      "path": "records.py",
+      "sha256": "af481c98db7ce60e78ea43b347ee6886e6b5676323b6c078fc7fd4ea5e2545f1"
+    },
+    {
+      "path": "tea.py",
+      "sha256": "55e7db5e838910cd82c5e7a0e11155365b95483fe9344cf11bbabae9c9e451aa"
+    }
+  ],
+  "result_hashes": {
+    "analyses.json": "d3c72059ea9680a72c6e5c453e11708083a980370a719ec3e15997c1ba475843",
+    "evaluation.json": "f23bda32ec19874ec329989015a27496e37ec9e4c0882ecbf7966b53a27e842c",
+    "grid.csv": "d2e970fee628c0865c31fdfd11d8775e985b430304771178f1fd58fedecd48bb"
+  },
+  "scope": "software execution record; no experimental, global-optimum or full-LCA validation claim"
+}

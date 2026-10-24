@@ -1,0 +1,9 @@
+* text=auto
+src/adm1_tea_lca/_legacy/** -text
+src/adm1_tea_lca/data/** -text
+third_party_licenses/** -text
+*.py text eol=lf
+src/adm1_tea_lca/_legacy/*.py -text
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf

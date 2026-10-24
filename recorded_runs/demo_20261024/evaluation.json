@@ -1,0 +1,562 @@
+{
+  "schema": "adm1-tea-lca/evaluation/v1",
+  "adm1": {
+    "feed": {
+      "silage_vs_fraction": 0.8,
+      "hrt_days": 30.0,
+      "olr_kg_vs_m3_d": 2.0,
+      "liquid_volume_m3": 10000.0,
+      "q_m3_d": 333.3333333333333,
+      "wet_feed_t_d": 333.3333333333333,
+      "silage_t_d": 97.6711534352776,
+      "slurry_t_d": 77.50135627373477,
+      "water_t_d": 158.16082362432093,
+      "vs_kg_d": 20000.0,
+      "input_ts_t_d": 24.901994067104763,
+      "influent_ts_pct": 7.4705982201314285
+    },
+    "gas_kg_d": {
+      "h2": 0.009329761024777138,
+      "ch4": 4223.650332573637,
+      "co2": 6352.909392816621
+    },
+    "gas_dry_normal_nm3_d": {
+      "h2": 0.10377932174390588,
+      "ch4": 5890.725707913022,
+      "co2": 3213.408898743865
+    },
+    "raw_biogas_nm3_d": 9104.238385978631,
+    "pH": 7.764004248283338,
+    "state": {
+      "S_su": 0.008511142061855043,
+      "S_aa": 0.0027040818880651567,
+      "S_fa": 0.025410466220661235,
+      "S_va": 0.010205565161332723,
+      "S_bu": 0.010679527026676433,
+      "S_pro": 0.008472388320179915,
+      "S_ac": 0.026827517670937422,
+      "S_h2": 2.2943412143686296e-08,
+      "S_ch4": 0.014753916703658611,
+      "S_IC": 12.91794733585189,
+      "S_IN": 3.388707663269256,
+      "S_h2o": 919.4300050385988,
+      "X_ch": 3.119239961766791,
+      "X_pr": 1.2833187776249804,
+      "X_li": 0.511020881403179,
+      "X_su": 1.4781735819859505,
+      "X_aa": 0.4991345109609251,
+      "X_fa": 0.10902355692867084,
+      "X_va": 0.08129942153609827,
+      "X_bu": 0.20473208453339214,
+      "X_pro": 0.19170681097187534,
+      "X_ac": 0.870417696629275,
+      "X_h2": 0.37171811080880024,
+      "S_cat": 0.10510078148725442,
+      "S_an": 0.007882630564496994,
+      "S_va_i": 0.010192850891629713,
+      "S_bu_i": 0.010667391629680743,
+      "S_pro_i": 0.008461336476978892,
+      "S_ac_i": 0.026800962680742328,
+      "S_hco3_i": 12.482604520584092,
+      "S_nh3": 0.20527454268457868,
+      "S_gas_h2": 9.81716670812802e-07,
+      "S_gas_ch4": 0.4444302412634006,
+      "S_gas_co2": 0.6684798294970574
+    },
+    "input_states": {
+      "S_su": 0.0,
+      "S_aa": 0.0,
+      "S_fa": 0.0,
+      "S_va": 0.04882585445245291,
+      "S_bu": 0.2478983546116461,
+      "S_pro": 0.3467170674571137,
+      "S_ac": 6.140309275758447,
+      "S_h2": 0.0,
+      "S_ch4": 0.0,
+      "S_IC": 0.0,
+      "S_IN": 2.505761346931986,
+      "S_h2o": 925.5265218675067,
+      "X_ch": 30.781329424168042,
+      "X_pr": 8.764747072255156,
+      "X_li": 1.9298973807813087,
+      "X_su": 0.0,
+      "X_aa": 0.0,
+      "X_fa": 0.0,
+      "X_va": 0.0,
+      "X_bu": 0.0,
+      "X_pro": 0.0,
+      "X_ac": 0.0,
+      "X_h2": 0.0,
+      "S_cat": 0.10510350582540742,
+      "S_an": 0.007882762936905558,
+      "S_va_i": 0.0,
+      "S_bu_i": 0.0,
+      "S_pro_i": 0.0,
+      "S_ac_i": 0.0,
+      "S_hco3_i": 0.0,
+      "S_nh3": 0.0,
+      "S_gas_h2": 0.0,
+      "S_gas_ch4": 0.0,
+      "S_gas_co2": 0.0
+    },
+    "specific_methane_nm3_kg_vs": 0.29453628539565113,
+    "numerical": {
+      "solver_success": true,
+      "solver": "SciPy BDF",
+      "nfev": 799,
+      "converged": true,
+      "methane_relative_drift_30d": 8.603855915714119e-08,
+      "ph_absolute_drift_30d": 2.3203231551249814e-05,
+      "pH_in_screen": true
+    },
+    "trajectory": [
+      {
+        "day": 0.0,
+        "pH": 7.464170885910038,
+        "ch4_kg_d": 3596.5662316171756
+      },
+      {
+        "day": 10.0,
+        "pH": 7.580090471883038,
+        "ch4_kg_d": 4426.807137928611
+      },
+      {
+        "day": 20.0,
+        "pH": 7.612310123724004,
+        "ch4_kg_d": 4140.3345292873655
+      },
+      {
+        "day": 30.0,
+        "pH": 7.658098331481301,
+        "ch4_kg_d": 4167.552690676918
+      },
+      {
+        "day": 40.0,
+        "pH": 7.6890783776155365,
+        "ch4_kg_d": 4182.285702523194
+      },
+      {
+        "day": 50.0,
+        "pH": 7.710756469520148,
+        "ch4_kg_d": 4198.6164646578145
+      },
+      {
+        "day": 60.0,
+        "pH": 7.72598216860877,
+        "ch4_kg_d": 4208.443267713099
+      },
+      {
+        "day": 70.0,
+        "pH": 7.736776585051173,
+        "ch4_kg_d": 4214.401286379048
+      },
+      {
+        "day": 80.0,
+        "pH": 7.744474128290459,
+        "ch4_kg_d": 4218.023462593391
+      },
+      {
+        "day": 90.0,
+        "pH": 7.74998356574051,
+        "ch4_kg_d": 4220.227742917494
+      },
+      {
+        "day": 100.0,
+        "pH": 7.75393511674015,
+        "ch4_kg_d": 4221.568811657467
+      },
+      {
+        "day": 110.0,
+        "pH": 7.7567729154020055,
+        "ch4_kg_d": 4222.385073283831
+      },
+      {
+        "day": 120.0,
+        "pH": 7.7588120675538095,
+        "ch4_kg_d": 4222.880967204057
+      },
+      {
+        "day": 130.0,
+        "pH": 7.760277866167114,
+        "ch4_kg_d": 4223.182693104502
+      },
+      {
+        "day": 140.0,
+        "pH": 7.761331416303265,
+        "ch4_kg_d": 4223.366069467274
+      },
+      {
+        "day": 150.0,
+        "pH": 7.762088678862121,
+        "ch4_kg_d": 4223.4776049958455
+      },
+      {
+        "day": 160.0,
+        "pH": 7.762632820782615,
+        "ch4_kg_d": 4223.545387576352
+      },
+      {
+        "day": 170.0,
+        "pH": 7.763023723945883,
+        "ch4_kg_d": 4223.5865883308825
+      },
+      {
+        "day": 180.0,
+        "pH": 7.7633037352029985,
+        "ch4_kg_d": 4223.611587303822
+      },
+      {
+        "day": 190.0,
+        "pH": 7.763503750299032,
+        "ch4_kg_d": 4223.626615753865
+      },
+      {
+        "day": 200.0,
+        "pH": 7.76364781722235,
+        "ch4_kg_d": 4223.635847388119
+      },
+      {
+        "day": 210.0,
+        "pH": 7.76375156457829,
+        "ch4_kg_d": 4223.641502221412
+      },
+      {
+        "day": 220.0,
+        "pH": 7.763826261576928,
+        "ch4_kg_d": 4223.644965933421
+      },
+      {
+        "day": 230.0,
+        "pH": 7.763880032982355,
+        "ch4_kg_d": 4223.647087526864
+      },
+      {
+        "day": 240.0,
+        "pH": 7.763918734656143,
+        "ch4_kg_d": 4223.648387038809
+      },
+      {
+        "day": 250.0,
+        "pH": 7.763946585987004,
+        "ch4_kg_d": 4223.649183010424
+      },
+      {
+        "day": 260.0,
+        "pH": 7.763966626463461,
+        "ch4_kg_d": 4223.649670551903
+      },
+      {
+        "day": 270.0,
+        "pH": 7.7639810450517865,
+        "ch4_kg_d": 4223.649969176848
+      },
+      {
+        "day": 280.0,
+        "pH": 7.763991417865833,
+        "ch4_kg_d": 4223.650152087153
+      },
+      {
+        "day": 290.0,
+        "pH": 7.763998879507994,
+        "ch4_kg_d": 4223.650264120461
+      },
+      {
+        "day": 300.0,
+        "pH": 7.764004248283338,
+        "ch4_kg_d": 4223.650332573637
+      }
+    ],
+    "configuration": {
+      "liquid_volume_m3": 10000.0,
+      "headspace_volume_m3": 1000.0,
+      "integration_days": 300.0,
+      "rtol": 0.001,
+      "atol": 1e-06,
+      "max_step_days": 1.0,
+      "methane_drift_limit": 0.01,
+      "ph_drift_limit": 0.05,
+      "ph_min": 5.5,
+      "ph_max": 9.0,
+      "max_influent_ts": 0.12,
+      "density_t_m3": 1.0,
+      "silage_ts": 0.201,
+      "silage_vs_ts": 0.815,
+      "slurry_ts": 0.068,
+      "slurry_vs_ts": 0.759
+    },
+    "parameters": {
+      "k_ch": 0.3,
+      "k_pr": 0.24,
+      "K_I_nh3": 1.0,
+      "k_m_su": 3.0,
+      "k_m_aa": 4.0,
+      "k_m_fa": 0.36,
+      "k_m_va": 1.2,
+      "k_m_bu": 1.2,
+      "k_m_pro": 0.52,
+      "k_m_ac": 0.4,
+      "k_m_h2": 2.1,
+      "K_su": 0.47,
+      "K_aa": 0.2,
+      "K_fa": 0.14,
+      "K_va": 0.1,
+      "K_bu": 0.11,
+      "K_pro": 0.07,
+      "K_ac": 0.14,
+      "K_h2": 8.8e-07,
+      "K_I_IN": 0.0017,
+      "K_I_fa": 6.3e-07,
+      "K_I_c4": 1.3e-06,
+      "K_I_pro": 4.4e-07,
+      "K_H_ch4": 0.0011,
+      "K_H_co2": 0.025,
+      "K_H_h2": 0.00072,
+      "K_a_IN": 1.11028665270807e-09,
+      "K_a_ac": 1.73780082874937e-05,
+      "K_a_bu": 1.51356124843621e-05,
+      "K_a_co2": 4.93707339753436e-07,
+      "K_a_pro": 1.31825673855641e-05,
+      "K_a_va": 1.38038426460288e-05,
+      "K_w": 2.07877105595436e-14,
+      "R": 0.08315,
+      "T": 311.0,
+      "k_AB_IN": 10000000000.0,
+      "k_AB_ac": 10000000000.0,
+      "k_AB_bu": 10000000000.0,
+      "k_AB_co2": 10000000000.0,
+      "k_AB_pro": 10000000000.0,
+      "k_AB_va": 10000000000.0,
+      "k_La": 200.0,
+      "k_dec": 0.02,
+      "k_li": 0.1,
+      "k_p": 50000.0,
+      "pK_l_aa": 4.0,
+      "pK_l_ac": 6.0,
+      "pK_l_h2": 5.0,
+      "pK_u_aa": 5.5,
+      "pK_u_ac": 7.0,
+      "pK_u_h2": 6.0,
+      "p_h2o": 0.0657
+    },
+    "initial_condition_provenance": "archived local ADM1_Tisocco_NSGA vector; original generator unavailable",
+    "scope": "direct preserved equations with archived feed mapping; no independent biological validation claimed"
+  },
+  "process": {
+    "silage_vs_fraction": 0.8,
+    "hrt_days": 30.0,
+    "olr_kg_vs_m3_d": 2.0,
+    "liquid_volume_m3": 10000.0,
+    "q_m3_d": 333.3333333333333,
+    "wet_feed_t_d": 333.3333333333333,
+    "silage_t_d": 97.6711534352776,
+    "slurry_t_d": 77.50135627373477,
+    "water_t_d": 158.16082362432093,
+    "vs_kg_d": 20000.0,
+    "input_ts_t_d": 24.901994067104763,
+    "influent_ts_pct": 7.4705982201314285,
+    "generated_gas_kg_d": {
+      "h2": 0.009329761024777138,
+      "ch4": 4223.650332573637,
+      "co2": 6352.909392816621
+    },
+    "collected_gas_kg_d": {
+      "h2": 0.009236463414529366,
+      "ch4": 4181.4138292479,
+      "co2": 6289.380298888455
+    },
+    "raw_biogas_nm3_d": 9013.196002118844,
+    "co2_volume_fraction": 0.35295746470048633,
+    "saleable_methane_nm3_d": 5773.500266325554,
+    "saleable_methane_kg_d": 4139.5996909554215,
+    "digester_leak_ch4_kg_d": 42.236503325736365,
+    "upgrading_loss_ch4_kg_d": 41.814138292479,
+    "incremental_yield_loss_fraction": 0.0,
+    "incremental_yield_loss_kg_ch4_d": 0.0,
+    "digestate_t_d": 322.756764278182,
+    "ledger_mass_residual_kg_d": 2.9103830456733704e-11,
+    "ts_for_penalty_pct": 7.4705982201314285,
+    "ts_basis": "influent",
+    "electricity_multiplier": 1.0,
+    "maintenance_multiplier": 1.0,
+    "digestate_mass_basis": "difference-based ledger; not independent ADM1 elemental closure",
+    "gas_volume_basis": "dry normal component masses; kg/Nm3 densities explicitly recorded"
+  },
+  "tea": {
+    "capex_direct_eur": {
+      "reactor": 2413000.0,
+      "storage": 374000.0,
+      "reception": 516333.3333333333,
+      "pasteurization": 845333.3333333333,
+      "upgrading": 1070906.303715167,
+      "grid": 400000.0
+    },
+    "capex_gross_eur": 9204860.525485443,
+    "capex_net_eur": 7363888.420388355,
+    "opex_eur_y": 1868876.0189743047,
+    "opex_components_eur_y": {
+      "maintenance": 224782.91881527335,
+      "insurance": 84293.5945557275,
+      "labour": 136883.50228222975,
+      "administration": 39935.0,
+      "electricity": 154304.7526724767,
+      "silage": 1182331.2883435583,
+      "slurry": 0.0,
+      "transport": 46344.96230503922,
+      "extra": 0.0
+    },
+    "revenue_eur_y": 2592865.7850220855,
+    "revenue_components_eur_y": {
+      "biomethane": 2416156.4565797807,
+      "digestate": 176709.32844230466
+    },
+    "electricity_kwh_y": 964404.7042029793,
+    "biomethane_kwh_y": 21010056.144172005,
+    "npv_eur": -241659.88872306282,
+    "irr_fraction": 0.05670447151947557,
+    "lcob_eur_mwh": 119.5091222652124,
+    "simple_payback_years": 12.504865556459587,
+    "discounted_payback_years": null,
+    "cashflows_eur": [
+      -8468471.683446608,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      677214.1327878641,
+      2149991.816865535
+    ],
+    "tax_eur_y": [
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675,
+      46775.63325991675
+    ],
+    "scope": "reconstructed common-basis screening TEA; historical source years not escalated; LCOB excludes co-product revenue"
+  },
+  "lca": {
+    "incurred_components_kgco2e_y": {
+      "feed_transport": 35649.97100387632,
+      "digester_methane_leak": 431657.06398902566,
+      "upgrading_methane_loss": 427340.4933491354,
+      "purchased_electricity": 337541.64647104277
+    },
+    "counterfactual_credits_kgco2e_y": {
+      "fertilizer_substitution": -2603517.4390499555,
+      "fossil_gas_substitution": -4202011.228834401
+    },
+    "resolved_incurred_kgco2e_y": 1232189.17481308,
+    "resolved_net_kgco2e_y": -5573339.493071277,
+    "resolved_net_gco2e_kwh": -265.2700904189287,
+    "uncharacterized_incremental_yield_loss_kg_ch4_d": 0.0,
+    "full_lca_kgco2e_y": null,
+    "missing_inventory": [
+      "feedstock cultivation inventory",
+      "plant construction/end-of-life inventory",
+      "complete heating/utilities inventory",
+      "site-specific digestate application inventory"
+    ],
+    "scope": "partial historical GHG screen, not a complete product LCA; yield loss is not atmospheric methane"
+  },
+  "screen_valid": true,
+  "assumptions": {
+    "tea": {
+      "discount_rate": 0.06,
+      "project_lifetime_years": 20,
+      "tax_rate": 0.125,
+      "salvage_rate": 0.05,
+      "working_capital_rate": 0.15,
+      "capex_subsidy_rate": 0.2,
+      "reactor_unit_eur_m3": 241.3,
+      "storage_unit_eur_m3": 37.4,
+      "reception_eur_t_d": 1549.0,
+      "pasteurization_eur_t_d": 2536.0,
+      "upgrading_capex_anchor_eur": 2104897.0,
+      "upgrading_anchor_flow_m3h": 1000.0,
+      "grid_connection_eur": 400000.0,
+      "civil_factor": 0.3,
+      "eng_rate": 0.07,
+      "contingency_rate": 0.1,
+      "dev_legal_rate": 0.09,
+      "scale_exp_equipment": 0.69,
+      "maintenance_rate": 0.04,
+      "insurance_rate": 0.015,
+      "labour_anchor_eur": 145455.0,
+      "capex_anchor_volume_m3": 12750.0,
+      "labour_scale_exp": 0.25,
+      "admin_eur_year": 39935.0,
+      "electricity_price_eur_kwh": 0.16,
+      "transport_eur_t_km": 0.13,
+      "transport_distance_km": 10.0,
+      "ad_base_power_kwh_m3": 0.05,
+      "upgrading_power_ref_kwh_m3": 0.31,
+      "upgrading_power_co2_ref": 0.45,
+      "silage_price_eur_t_dm": 165.0,
+      "silage_dm_fraction": 0.201,
+      "slurry_price_eur_t": 0.0,
+      "biomethane_price_eur_kwh": 0.115,
+      "digestate_value_eur_t": 1.5,
+      "lhv_kwh_nm3": 9.97,
+      "operating_days": 365.0,
+      "extra_capex_eur": 0.0,
+      "extra_opex_eur_year": 0.0
+    },
+    "lca": {
+      "gwp_ch4": 28.0,
+      "gwp_n2o": 265.0,
+      "grid_kgco2e_kwh": 0.35,
+      "transport_kgco2e_t_km": 0.1,
+      "transport_distance_km": 10.0,
+      "fertilizer_credit_kgco2e_t_digestate": 22.1,
+      "fossil_gas_credit_kgco2e_kwh": 0.2,
+      "digester_leak_fraction": 0.01,
+      "upgrading_loss_fraction": 0.01,
+      "storage_mode": "closed",
+      "open_storage_mcf": 0.15,
+      "residual_methane_potential_kg_d": null,
+      "digestate_nitrogen_kg_t": 3.6,
+      "storage_n2o_n_fraction": null
+    },
+    "boundary": {
+      "apply_hrt_loss": false,
+      "hrt_reference_days": 20.0,
+      "hrt_anchor_days": 16.0,
+      "hrt_critical_days": 4.0,
+      "anchor_incremental_loss": 0.21,
+      "baseline_loss_fraction": 0.1917,
+      "curvature": 1.0,
+      "apply_rheology": false,
+      "ts_basis": "influent"
+    }
+  },
+  "implementation_status": "ADM1 source preserved; adapter/TEA/LCA/analysis reconstructed 2026-10-24"
+}

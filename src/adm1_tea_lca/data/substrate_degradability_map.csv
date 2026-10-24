@@ -1,0 +1,10 @@
+﻿substrate,fraction,degradable_fraction,Tisocco_plant_specific_fraction,configuration_role
+Grass_Silage_A,DQXC,0.717,0.85,current conservative literature-derived map
+Grass_Silage_A,DQXP,0.84,1.0,current conservative literature-derived map
+Grass_Silage_A,DQXL,0.844,1.0,current conservative literature-derived map
+Cattle_Slurry_A,DQXC,0.47,0.69,current conservative literature-derived map
+Cattle_Slurry_A,DQXP,0.47,1.0,current conservative literature-derived map
+Cattle_Slurry_A,DQXL,0.47,1.0,current conservative literature-derived map
+Water,DQXC,1.0,1.0,current conservative literature-derived map
+Water,DQXP,1.0,1.0,current conservative literature-derived map
+Water,DQXL,1.0,1.0,current conservative literature-derived map

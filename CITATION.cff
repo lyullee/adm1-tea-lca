@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the archived software release when using this code."
+type: software
+title: "ADM1-TEA-LCA: Recorded Anaerobic Digestion, Techno-Economic and Environmental Analysis Workflow"
+authors:
+  - family-names: Lee
+    given-names: Ugwiyeon
+    affiliation: "Korea Gas Safety Corporation"
+version: 0.1.0
+date-released: 2026-10-24
+repository-code: "https://github.com/lyullee/adm1-tea-lca"
+url: "https://github.com/lyullee/adm1-tea-lca"
+license: MIT
+abstract: >-
+  A recorded research workflow preserving existing mass-based ADM1/R1-R4
+  equation implementations and reconstructing their biomethane TEA/LCA,
+  finite-grid optimization, robustness and sensitivity interfaces from
+  historical research notes. Includes small executed examples and source
+  hashes. It is a code record, not a claim of complete historical numerical
+  reproduction, independent biological validation or a complete product LCA.

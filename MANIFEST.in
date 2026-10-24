@@ -1,0 +1,6 @@
+include README.md LICENSE SOURCE_MANIFEST.json run.py CITATION.cff CHANGELOG.md THIRD_PARTY_NOTICES.md
+recursive-include docs *.md
+recursive-include tests *.py
+recursive-include examples *.json
+recursive-include third_party_licenses *.txt
+recursive-include src *.py *.csv

@@ -1,0 +1,11 @@
+{
+  "title": "ADM1-TEA-LCA: Recorded Anaerobic Digestion, Techno-Economic and Environmental Analysis Workflow",
+  "upload_type": "software",
+  "description": "An executable record of earlier ADM1 grass-silage/cattle-slurry biomethane research. Preserves existing mass-based ADM1/R1-R4 source and audited input tables; reconstructs the missing TEA, partial GHG, finite-grid optimization, robustness and sensitivity interfaces from July-August research notes. Includes a four-point executed grid, a 64-sample descriptive sensitivity example, five light tests and source/result hashes. No DWSIM, Aspen or downstream hydrogen optimization is included. The release records the implementation history and does not claim complete historical numerical reproduction, independent experimental validation, global optimality or a full product LCA.",
+  "creators": [{"name": "Lee, Ugwiyeon", "affiliation": "Korea Gas Safety Corporation"}],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["ADM1", "anaerobic digestion", "biomethane", "techno-economic analysis", "environmental screening", "optimization", "research software"],
+  "notes": "Existing equation sources are preserved byte-for-byte; reconstructed analysis code is identified in the reconstruction record. Upstream Weinrich MIT attribution is retained. Environmental outputs remain explicitly partial; full LCA is null.",
+  "related_identifiers": [{"identifier": "https://github.com/lyullee/adm1-tea-lca", "relation": "isSupplementTo", "scheme": "url"}]
+}
