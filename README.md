@@ -1,5 +1,7 @@
 # ADM1-TEA-LCA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23608755.svg)](https://doi.org/10.5281/zenodo.23608755)
+
 An executable record of earlier **ADM1-based grass-silage/cattle-slurry
 biomethane research**, including simulation, techno-economic analysis,
 partial environmental accounting, finite-grid optimization, robustness and
@@ -7,6 +9,9 @@ sensitivity analysis.
 
 [한국어 설명](docs/README_KO.md) · [Reconstruction record](docs/RECONSTRUCTION.md)
 · [Light test record](docs/TEST_REPORT.md)
+
+Archived release: [v0.1.0](https://doi.org/10.5281/zenodo.23608755).
+All versions: [Zenodo concept DOI](https://doi.org/10.5281/zenodo.23608754).
 
 ## Purpose and provenance
 

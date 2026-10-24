@@ -7,6 +7,7 @@ authors:
     given-names: Ugwiyeon
     affiliation: "Korea Gas Safety Corporation"
 version: 0.1.0
+doi: "10.5281/zenodo.23608755"
 date-released: 2026-10-24
 repository-code: "https://github.com/lyullee/adm1-tea-lca"
 url: "https://github.com/lyullee/adm1-tea-lca"
