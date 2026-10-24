@@ -1,14 +1,15 @@
 # ADM1-TEA-LCA
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23608755.svg)](https://doi.org/10.5281/zenodo.23608755)
+[![PyPI](https://img.shields.io/pypi/v/adm1-tea-lca)](https://pypi.org/project/adm1-tea-lca/)
 
 An executable record of earlier **ADM1-based grass-silage/cattle-slurry
 biomethane research**, including simulation, techno-economic analysis,
 partial environmental accounting, finite-grid optimization, robustness and
 sensitivity analysis.
 
-[한국어 설명](docs/README_KO.md) · [Reconstruction record](docs/RECONSTRUCTION.md)
-· [Light test record](docs/TEST_REPORT.md)
+[한국어 설명](https://github.com/lyullee/adm1-tea-lca/blob/main/docs/README_KO.md) · [Reconstruction record](https://github.com/lyullee/adm1-tea-lca/blob/main/docs/RECONSTRUCTION.md)
+· [Light test record](https://github.com/lyullee/adm1-tea-lca/blob/main/docs/TEST_REPORT.md)
 
 Archived release: [v0.1.0](https://doi.org/10.5281/zenodo.23608755).
 All versions: [Zenodo concept DOI](https://doi.org/10.5281/zenodo.23608754).
@@ -117,8 +118,8 @@ ZIP includes all code, documentation and the small executed example.
 ## Citation and license
 
 Software creator: **Ugwiyeon Lee**, Korea Gas Safety Corporation. Cite the
-versioned software archive described in `CITATION.cff`; the Zenodo DOI is added
-after the first release is archived.
+versioned software archive described in `CITATION.cff`, using the version DOI
+linked above.
 
 The repository uses the [MIT license](LICENSE). Upstream attribution is retained
 in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and
